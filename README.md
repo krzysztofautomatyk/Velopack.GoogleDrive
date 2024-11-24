@@ -30,6 +30,10 @@ Or add this to your `.csproj` file:
 
 ```xml
 <PackageReference Include="Velopack.GoogleDrive" Version="1.0.0" />
+<PackageReference Include="Google.Apis" Version="1.68.0" />
+<PackageReference Include="Google.Apis.Drive.v3" Version="1.68.0.3601" />
+<PackageReference Include="Google.Cloud.Storage.V1" Version="4.10.0" />
+<PackageReference Include="Velopack" Version="0.0.942" />
 ```
 
 ---
