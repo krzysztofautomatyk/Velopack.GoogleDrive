@@ -40,11 +40,12 @@ public class GoogleDriveUpdateSource : IUpdateSource, IDisposable
     /// <exception cref="ArgumentNullException">Thrown when folderPath, apiKey, or packageId is null</exception>
     /// <exception cref="ArgumentException">Thrown when folderPath is invalid</exception>
     public GoogleDriveUpdateSource(
-        string folderPath,
-        string apiKey,
-        string packageId,
-        ILogger? logger = null,
-        Options? options = null)
+    string folderPath,
+    string apiKey,
+    string packageId,
+    ILogger? logger = null,
+    DriveService? driveService = null,
+    Options? options = null)
     {
         if (string.IsNullOrWhiteSpace(folderPath))
             throw new ArgumentNullException(nameof(folderPath));
@@ -61,7 +62,7 @@ public class GoogleDriveUpdateSource : IUpdateSource, IDisposable
         _logger = logger;
         _fileIdMap = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
 
-        _driveService = new DriveService(new BaseClientService.Initializer
+        _driveService = driveService ?? new DriveService(new BaseClientService.Initializer
         {
             ApiKey = _apiKey,
             ApplicationName = options?.ApplicationName ?? "VelopackUpdater"

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.13.35507.96 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Velopack.GoogleDrive", "Velopack.GoogleDrive\Velopack.GoogleDrive.csproj", "{69BC299C-E903-4C29-8FF2-97E972C35B88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Velopack.GoogleDrive.Tests", "Velopack.GoogleDrive.Tests\Velopack.GoogleDrive.Tests.csproj", "{80D7BC0E-703F-4739-804B-57406CA26090}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{69BC299C-E903-4C29-8FF2-97E972C35B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69BC299C-E903-4C29-8FF2-97E972C35B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69BC299C-E903-4C29-8FF2-97E972C35B88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80D7BC0E-703F-4739-804B-57406CA26090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80D7BC0E-703F-4739-804B-57406CA26090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80D7BC0E-703F-4739-804B-57406CA26090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80D7BC0E-703F-4739-804B-57406CA26090}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
