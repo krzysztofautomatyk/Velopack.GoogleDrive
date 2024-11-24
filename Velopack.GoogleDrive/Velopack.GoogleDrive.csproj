@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+	<AssemblyName>Velopack.GoogleDrive</AssemblyName>
+	<PackageId>Velopack.GoogleDrive</PackageId>
+	<Version>1.0.0</Version>
+	<Authors>Krzysztof Woźniczak</Authors>
+	<Company></Company>
+	<Description>Library for integrating Velopack with Google Drive as an update source.</Description>
+	<PackageTags>Velopack;GoogleDrive;NuGet;UpdateSource</PackageTags>
+	<RepositoryUrl>https://github.com/YourGitHub/Velopack.GoogleDrive</RepositoryUrl>
+	<PackageProjectUrl>https://github.com/YourGitHub/Velopack.GoogleDrive</PackageProjectUrl>
+	<LicenseUrl>https://opensource.org/licenses/MIT</LicenseUrl>
+	<Copyright>Copyright © Krzysztof Woźniczak 2024</Copyright>
+	<IncludeSymbols>true</IncludeSymbols>
+	<IncludeSource>true</IncludeSource>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis" Version="1.68.0" />
+    <PackageReference Include="Google.Apis.Drive.v3" Version="1.68.0.3601" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.0" />
+    <PackageReference Include="Velopack" Version="0.0.942" />
+  </ItemGroup>
+
+</Project>
