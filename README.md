@@ -100,6 +100,15 @@ await source.DownloadReleaseEntry(
 
 ---
 
+## 🐝 Demo Project
+
+A sample WPF application demonstrating the use of Velopack.GoogleDrive with .NET 8 and Velopack is available at:
+[ExampleWpfApp.Velopack.GoogleDrive](https://github.com/krzysztofautomatyk/ExampleWpfApp.Velopack.GoogleDrive) 
+
+This project shows how to integrate Velopack.GoogleDrive in a real-world WPF application, including configuration, retrieving updates, and applying updates.
+
+---
+
 ## ✅ Running Tests
 To run unit tests:
 
